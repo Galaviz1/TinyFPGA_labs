@@ -37,7 +37,7 @@ bus.
 
 **Breadboard layout:**
 
-![Breadboard wiring: a TinyFPGA BX and a 1602A LCD on a breadboard with a 10k contrast trimmer; color-coded jumpers for RS/E/RW, the D4-D7 data bus, 3.3 V, GND, and the VO contrast line](docs/bx_1602a_breadboard.svg)
+![Breadboard wiring with the original pinouts: the official TinyFPGA BX pinout and the 1602A pinout side by side, a breadboard power-rail strip, and a color-coded connection panel mapping BX pins 1-7 to LCD RS/E/RW/D4-D7 plus 3.3 V, GND and the 10k contrast pot](docs/bx_1602a_breadboard.png)
 
 **Pin map (TinyFPGA BX → 1602A):**
 
