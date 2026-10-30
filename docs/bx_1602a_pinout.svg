@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-label="TinyFPGA BX to 1602A LCD pinout: BX pin 1 to LCD RS, pin 2 to E, pin 3 to RW, pins 4-7 to D4-D7, 3.3V to LCD VDD and backlight anode, GND to VSS and backlight cathode, and LCD VO to a 10k contrast pot.">
+<style>svg{font-family:Archivo,"Helvetica Neue",Arial,sans-serif}text{fill:#17191a}.cap{font-weight:700;font-size:20px}.note{fill:#5b625e;font-size:12px}.h{font-weight:700;font-size:15px}.sig{font-weight:700;font-size:13px}.pin{fill:#5b625e;font-size:11px}</style>
+<rect width="960" height="560" fill="#fff"/>
+<text class="cap" x="34" y="40">TinyFPGA BX  →  1602A LCD  (4-bit)</text>
+<text class="note" x="34" y="62">Clock = on-board 16 MHz (no wiring). LCD powered at 3.3 V — no level shifter.</text>
+<rect x="34" y="90" width="326" height="354" rx="10" fill="#101417" stroke="#000" stroke-width="1.5"/>
+<text class="h" x="50" y="112" style="fill:#e8eef2">TinyFPGA BX  (3.3 V)</text>
+<rect x="600" y="90" width="326" height="354" rx="10" fill="#0d3a1c" stroke="#1f6b3a" stroke-width="1.5"/>
+<text class="h" x="616" y="112" style="fill:#dff5e6">1602A  (HD44780)</text>
+<path d="M360,138 L600,138" stroke="#13a34a" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<circle cx="360" cy="138" r="5" fill="#13a34a" stroke="#fff"/>
+<circle cx="600" cy="138" r="5" fill="#13a34a" stroke="#0d3a1c"/>
+<text class="sig" x="340" y="136" text-anchor="end" style="fill:#e8eef2">RS</text>
+<text class="pin" x="340" y="150" text-anchor="end" style="fill:#9fb0ba">BX 1</text>
+<text class="sig" x="614" y="136" style="fill:#dff5e6">RS</text>
+<text class="pin" x="614" y="150" style="fill:#a9d9ba">LCD 4</text>
+<path d="M360,176 L600,176" stroke="#13a34a" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<circle cx="360" cy="176" r="5" fill="#13a34a" stroke="#fff"/>
+<circle cx="600" cy="176" r="5" fill="#13a34a" stroke="#0d3a1c"/>
+<text class="sig" x="340" y="174" text-anchor="end" style="fill:#e8eef2">E</text>
+<text class="pin" x="340" y="188" text-anchor="end" style="fill:#9fb0ba">BX 2</text>
+<text class="sig" x="614" y="174" style="fill:#dff5e6">E</text>
+<text class="pin" x="614" y="188" style="fill:#a9d9ba">LCD 6</text>
+<path d="M360,214 L600,214" stroke="#13a34a" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<circle cx="360" cy="214" r="5" fill="#13a34a" stroke="#fff"/>
+<circle cx="600" cy="214" r="5" fill="#13a34a" stroke="#0d3a1c"/>
+<text class="sig" x="340" y="212" text-anchor="end" style="fill:#e8eef2">RW</text>
+<text class="pin" x="340" y="226" text-anchor="end" style="fill:#9fb0ba">BX 3</text>
+<text class="sig" x="614" y="212" style="fill:#dff5e6">RW</text>
+<text class="pin" x="614" y="226" style="fill:#a9d9ba">LCD 5</text>
+<path d="M360,252 L600,252" stroke="#3a67c9" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<circle cx="360" cy="252" r="5" fill="#3a67c9" stroke="#fff"/>
+<circle cx="600" cy="252" r="5" fill="#3a67c9" stroke="#0d3a1c"/>
+<text class="sig" x="340" y="250" text-anchor="end" style="fill:#e8eef2">D4</text>
+<text class="pin" x="340" y="264" text-anchor="end" style="fill:#9fb0ba">BX 4</text>
+<text class="sig" x="614" y="250" style="fill:#dff5e6">D4</text>
+<text class="pin" x="614" y="264" style="fill:#a9d9ba">LCD 11</text>
+<path d="M360,290 L600,290" stroke="#3a67c9" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<circle cx="360" cy="290" r="5" fill="#3a67c9" stroke="#fff"/>
+<circle cx="600" cy="290" r="5" fill="#3a67c9" stroke="#0d3a1c"/>
+<text class="sig" x="340" y="288" text-anchor="end" style="fill:#e8eef2">D5</text>
+<text class="pin" x="340" y="302" text-anchor="end" style="fill:#9fb0ba">BX 5</text>
+<text class="sig" x="614" y="288" style="fill:#dff5e6">D5</text>
+<text class="pin" x="614" y="302" style="fill:#a9d9ba">LCD 12</text>
+<path d="M360,328 L600,328" stroke="#3a67c9" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<circle cx="360" cy="328" r="5" fill="#3a67c9" stroke="#fff"/>
+<circle cx="600" cy="328" r="5" fill="#3a67c9" stroke="#0d3a1c"/>
+<text class="sig" x="340" y="326" text-anchor="end" style="fill:#e8eef2">D6</text>
+<text class="pin" x="340" y="340" text-anchor="end" style="fill:#9fb0ba">BX 6</text>
+<text class="sig" x="614" y="326" style="fill:#dff5e6">D6</text>
+<text class="pin" x="614" y="340" style="fill:#a9d9ba">LCD 13</text>
+<path d="M360,366 L600,366" stroke="#3a67c9" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<circle cx="360" cy="366" r="5" fill="#3a67c9" stroke="#fff"/>
+<circle cx="600" cy="366" r="5" fill="#3a67c9" stroke="#0d3a1c"/>
+<text class="sig" x="340" y="364" text-anchor="end" style="fill:#e8eef2">D7</text>
+<text class="pin" x="340" y="378" text-anchor="end" style="fill:#9fb0ba">BX 7</text>
+<text class="sig" x="614" y="364" style="fill:#dff5e6">D7</text>
+<text class="pin" x="614" y="378" style="fill:#a9d9ba">LCD 14</text>
+<path d="M360,404 L600,404" stroke="#d8352a" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<circle cx="360" cy="404" r="5" fill="#d8352a" stroke="#fff"/>
+<circle cx="600" cy="404" r="5" fill="#d8352a" stroke="#0d3a1c"/>
+<text class="sig" x="340" y="402" text-anchor="end" style="fill:#e8eef2">PWR</text>
+<text class="pin" x="340" y="416" text-anchor="end" style="fill:#9fb0ba">3.3V</text>
+<text class="sig" x="614" y="402" style="fill:#dff5e6">VDD , A</text>
+<text class="pin" x="614" y="416" style="fill:#a9d9ba">LCD 2 / 15</text>
+<path d="M360,442 L600,442" stroke="#2b2b2b" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+<circle cx="360" cy="442" r="5" fill="#2b2b2b" stroke="#fff"/>
+<circle cx="600" cy="442" r="5" fill="#2b2b2b" stroke="#0d3a1c"/>
+<text class="sig" x="340" y="440" text-anchor="end" style="fill:#e8eef2">GND</text>
+<text class="pin" x="340" y="454" text-anchor="end" style="fill:#9fb0ba">GND</text>
+<text class="sig" x="614" y="440" style="fill:#dff5e6">VSS , K</text>
+<text class="pin" x="614" y="454" style="fill:#a9d9ba">LCD 1 / 16</text>
+<text class="note" x="34" y="486">LCD 3 (VO contrast) → wiper of a 10 kΩ pot; pot ends → 3.3 V and GND.</text>
+<text class="note" x="34" y="504">LCD 7-10 (D0-D3) unused in 4-bit mode. RW may instead tie to GND for write-only.</text>
+</svg>

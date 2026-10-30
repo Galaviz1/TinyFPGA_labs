@@ -34,6 +34,8 @@ init sequence (function set → display on → clear → entry mode) followed by
 characters of `Hello World!`, strobing **E** for each nibble. Write‑only, 4‑bit
 bus.
 
+![TinyFPGA BX to 1602A wiring: BX pins 1-7 to RS, E, RW and D4-D7; 3.3 V and GND to the LCD power and backlight; VO to a 10k contrast pot](docs/bx_1602a_pinout.svg)
+
 **Pin map (TinyFPGA BX → 1602A):**
 
 | BX pin | LCD | |
