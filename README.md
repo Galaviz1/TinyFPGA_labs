@@ -65,6 +65,27 @@ bus.
 - **APIO (CLI):** `apio build` then `apio upload`.
 - Programming always goes over USB through the BX bootloader (`tinyprog`).
 
+## Pinout references
+
+The official **TinyFPGA BX** pinout and the standard **1602A** pinout, for
+reference when wiring. The LCD example uses the BX's header **pins 1–7**.
+
+**TinyFPGA BX — top (GPIO header, pins 1–24):**
+
+![Official TinyFPGA BX top pinout: GND, Vin (3.5-5.5 V), 3.3 V, and header pins 1-24 (pin1=A2 ... pin24=A6) with differential-IO and global-buffer notes](docs/tinyfpga_bx_pinout_top.png)
+
+**TinyFPGA BX — bottom (inner pads: power, clock, LED, SPI):**
+
+![Official TinyFPGA BX bottom/inner-pad pinout: Vin, GND, 3.3 V and 1.2 V rails, usb_p/usb_n, led (User LED), clk (16 MHz), the SPI-flash pins, and pins 25-31](docs/tinyfpga_bx_pinout_bottom.png)
+
+> TinyFPGA BX pinout images © [TinyFPGA](https://tinyfpga.com) (Luke Valenty),
+> from [tinyfpga/TinyFPGA-BX](https://github.com/tinyfpga/TinyFPGA-BX), licensed
+> **CERN OHL v1.2**.
+
+**1602A character LCD (HD44780, 16‑pin):**
+
+![1602A HD44780 16-pin pinout: VSS, VDD, VO, RS, RW, E, D0-D7, A, K with each pin's function; the 4-bit example uses RS, RW, E and D4-D7](docs/lcd_1602a_pinout.svg)
+
 ---
 
 ## Can we build a battery‑level gauge + display on this board?

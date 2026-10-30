@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" role="img" aria-label="Standard 1602A HD44780 16-pin pinout: 1 VSS ground, 2 VDD supply, 3 VO contrast, 4 RS, 5 RW, 6 E, 7-10 D0-D3 unused in 4-bit mode, 11-14 D4-D7 data bus, 15 A backlight anode, 16 K backlight cathode.">
+<style>svg{font-family:Archivo,"Helvetica Neue",Arial,sans-serif}text{fill:#17191a}.cap{font-weight:700;font-size:20px}.note{fill:#5b625e;font-size:12px}.n{font-weight:700;font-size:13px}.fn{font-size:12.5px}.used{fill:#13a34a}.pwr{fill:#d8352a}.gnd{fill:#2b2b2b}</style>
+<rect width="820" height="620" fill="#fff"/>
+<text class="cap" x="30" y="38">1602A character LCD — pinout (HD44780, 16-pin)</text>
+<rect x="30" y="60" width="760" height="70" rx="8" fill="#123f20" stroke="#1f6b3a" stroke-width="2"/>
+<rect x="50" y="74" width="720" height="26" rx="3" fill="#1d6fae"/>
+<text x="64" y="93" style="fill:#cfe8ff;font-family:monospace;font-size:13px">Hello World!</text>
+<line x1="50" y1="130" x2="50" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="50" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="50" y="162" text-anchor="middle">1</text>
+<line x1="98" y1="130" x2="98" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="98" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="98" y="162" text-anchor="middle">2</text>
+<line x1="145" y1="130" x2="145" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="145" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="145" y="162" text-anchor="middle">3</text>
+<line x1="193" y1="130" x2="193" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="193" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="193" y="162" text-anchor="middle">4</text>
+<line x1="241" y1="130" x2="241" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="241" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="241" y="162" text-anchor="middle">5</text>
+<line x1="289" y1="130" x2="289" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="289" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="289" y="162" text-anchor="middle">6</text>
+<line x1="336" y1="130" x2="336" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="336" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="336" y="162" text-anchor="middle">7</text>
+<line x1="384" y1="130" x2="384" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="384" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="384" y="162" text-anchor="middle">8</text>
+<line x1="432" y1="130" x2="432" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="432" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="432" y="162" text-anchor="middle">9</text>
+<line x1="480" y1="130" x2="480" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="480" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="480" y="162" text-anchor="middle">10</text>
+<line x1="527" y1="130" x2="527" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="527" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="527" y="162" text-anchor="middle">11</text>
+<line x1="575" y1="130" x2="575" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="575" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="575" y="162" text-anchor="middle">12</text>
+<line x1="623" y1="130" x2="623" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="623" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="623" y="162" text-anchor="middle">13</text>
+<line x1="671" y1="130" x2="671" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="671" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="671" y="162" text-anchor="middle">14</text>
+<line x1="718" y1="130" x2="718" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="718" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="718" y="162" text-anchor="middle">15</text>
+<line x1="766" y1="130" x2="766" y2="146" stroke="#bbb" stroke-width="1.6"/>
+<circle cx="766" cy="146" r="3.2" fill="#caa23a"/>
+<text class="note" x="766" y="162" text-anchor="middle">16</text>
+<text class="note" x="30" y="187">Pin · name · function  (green = used by the 4-bit example, red = power, black = ground)</text>
+<rect x="30" y="195" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="48" cy="215" r="7" fill="#2b2b2b"/>
+<text class="n" x="64" y="213">1  VSS</text>
+<text class="fn" x="64" y="229" style="fill:#5b625e">Ground (0 V)</text>
+<rect x="30" y="243" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="48" cy="263" r="7" fill="#d8352a"/>
+<text class="n" x="64" y="261">2  VDD</text>
+<text class="fn" x="64" y="277" style="fill:#5b625e">Supply (+3.3 V here / +5 V)</text>
+<rect x="30" y="291" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="48" cy="311" r="7" fill="#13a34a"/>
+<text class="n" x="64" y="309">3  VO</text>
+<text class="fn" x="64" y="325" style="fill:#5b625e">Contrast (from 10k pot wiper)</text>
+<rect x="30" y="339" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="48" cy="359" r="7" fill="#13a34a"/>
+<text class="n" x="64" y="357">4  RS</text>
+<text class="fn" x="64" y="373" style="fill:#5b625e">Register select (0=cmd 1=data)</text>
+<rect x="30" y="387" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="48" cy="407" r="7" fill="#13a34a"/>
+<text class="n" x="64" y="405">5  RW</text>
+<text class="fn" x="64" y="421" style="fill:#5b625e">Read/Write (tie 0 = write)</text>
+<rect x="30" y="435" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="48" cy="455" r="7" fill="#13a34a"/>
+<text class="n" x="64" y="453">6  E</text>
+<text class="fn" x="64" y="469" style="fill:#5b625e">Enable strobe</text>
+<rect x="30" y="483" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="48" cy="503" r="7" fill="#9aa0a6"/>
+<text class="n" x="64" y="501">7  D0</text>
+<text class="fn" x="64" y="517" style="fill:#5b625e">Data 0 — unused in 4-bit</text>
+<rect x="30" y="531" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="48" cy="551" r="7" fill="#9aa0a6"/>
+<text class="n" x="64" y="549">8  D1</text>
+<text class="fn" x="64" y="565" style="fill:#5b625e">unused in 4-bit</text>
+<rect x="430" y="195" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="448" cy="215" r="7" fill="#9aa0a6"/>
+<text class="n" x="464" y="213">9  D2</text>
+<text class="fn" x="464" y="229" style="fill:#5b625e">unused in 4-bit</text>
+<rect x="430" y="243" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="448" cy="263" r="7" fill="#9aa0a6"/>
+<text class="n" x="464" y="261">10  D3</text>
+<text class="fn" x="464" y="277" style="fill:#5b625e">unused in 4-bit</text>
+<rect x="430" y="291" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="448" cy="311" r="7" fill="#13a34a"/>
+<text class="n" x="464" y="309">11  D4</text>
+<text class="fn" x="464" y="325" style="fill:#5b625e">Data 4 (4-bit bus)</text>
+<rect x="430" y="339" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="448" cy="359" r="7" fill="#13a34a"/>
+<text class="n" x="464" y="357">12  D5</text>
+<text class="fn" x="464" y="373" style="fill:#5b625e">Data 5</text>
+<rect x="430" y="387" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="448" cy="407" r="7" fill="#13a34a"/>
+<text class="n" x="464" y="405">13  D6</text>
+<text class="fn" x="464" y="421" style="fill:#5b625e">Data 6</text>
+<rect x="430" y="435" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="448" cy="455" r="7" fill="#13a34a"/>
+<text class="n" x="464" y="453">14  D7</text>
+<text class="fn" x="464" y="469" style="fill:#5b625e">Data 7</text>
+<rect x="430" y="483" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="448" cy="503" r="7" fill="#d8352a"/>
+<text class="n" x="464" y="501">15  A</text>
+<text class="fn" x="464" y="517" style="fill:#5b625e">Backlight anode (+)</text>
+<rect x="430" y="531" width="378" height="40" rx="6" fill="#f5f6f4" stroke="#e2e4e0"/>
+<circle cx="448" cy="551" r="7" fill="#2b2b2b"/>
+<text class="n" x="464" y="549">16  K</text>
+<text class="fn" x="464" y="565" style="fill:#5b625e">Backlight cathode (−)</text>
+</svg>
