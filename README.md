@@ -20,12 +20,11 @@ prints `Hello World!`, built visually in **Icestudio**.
 ## This repo
 
 ```
-BX_Bottom/BX     Icestudio project (JSON): the HD44780 "Hello World!" LCD example
+BX_Bottom/BX.ice   Icestudio project: the HD44780 "Hello World!" LCD example
 ```
 
-Open `BX_Bottom/BX` in [Icestudio](https://icestudio.io/) (rename to `BX.ice`
-if your version wants the extension). It's seven output pins plus one Verilog
-**code block** that sequences the LCD.
+Open `BX_Bottom/BX.ice` in [Icestudio](https://icestudio.io/). It's seven
+output pins plus one Verilog **code block** that sequences the LCD.
 
 ### The HD44780 example
 
